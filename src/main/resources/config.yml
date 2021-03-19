@@ -1,0 +1,12 @@
+!!com.flyway.partition.model.Config
+
+databaseName: flyway_partition
+databaseHost: localhost
+databasePort: 5432
+databaseUsername: datadigicore
+databasePassword: datadigicore
+
+partitionRange: yearly
+partitionTables: table_one,table_two
+partitionNumberToRetain: 1
+partitionNumberOfFuture: 1
